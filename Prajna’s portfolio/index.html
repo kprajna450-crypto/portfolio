@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prajna K · Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="canvas-container"></div>
+
+    <!-- Fixed Header -->
+    <header class="fixed-header">
+        <div class="logo">Prajna.</div>
+        <div class="menu-btn">
+            <span>MENU</span>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Off-Canvas Menu -->
+    <div class="off-canvas-menu">
+        <div class="menu-close">CLOSE</div>
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="#hero" class="menu-link"><span>01</span> Home</a></li>
+                <li><a href="#about" class="menu-link"><span>02</span> About</a></li>
+                <li><a href="#skills" class="menu-link"><span>03</span> Skills</a></li>
+                <li><a href="#projects" class="menu-link"><span>04</span> Projects</a></li>
+                <li><a href="#contact" class="menu-link"><span>05</span> Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-footer">
+            <a href="mailto:kprajna450@gmail.com">kprajna450@gmail.com</a>
+            <div class="socials">
+                <a href="https://github.com/kprajna450-crypto" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/prajna-k-6547a3392/" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/pajju___gowda" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <div class="line">Prajna K</div>
+                    </h1>
+                    <div class="subtitle">AIML Student · Building Practical Solutions</div>
+                    <p class="hero-desc">
+                        I’m a 5th-semester Artificial Intelligence & Machine Learning student passionate about creating
+                        real-world solutions using ML, Web Technologies, and immersive experiences. I enjoy
+                        experimenting with new technologies and building projects that solve meaningful problems.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="mailto:kprajna450@gmail.com" class="btn-primary">Email Me <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="image-wrapper">
+                        <img src="images/prajna-profile.svg" alt="Prajna K Profile" class="hero-profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="bio-text">
+                    I am currently pursuing B.E. in Computer Science (AIML). I enjoy exploring Machine Learning, Web
+                    Development, Data Analytics, and Cloud Computing. I like learning new skills, solving problems
+                    creatively, and working on practical, hands-on tech projects.
+                </p>
+                <div class="education-list">
+                    <h3>Education</h3>
+                    <div class="edu-item">
+                        <span class="year">Current</span>
+                        <span class="degree">B.E. Computer Science (AIML), 5th Semester</span>
+                    </div>
+                    <div class="edu-item">
+                        <span class="year">Completed</span>
+                        <span class="degree">PUC – Science (PCMB)</span>
+                    </div>
+                    <div class="edu-item">
+                        <span class="year">Completed</span>
+                        <span class="degree">SSLC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="skills-header">
+                <h2 class="section-title">My Skills</h2>
+                <p class="skills-desc">Technologies & Tools I Master</p>
+            </div>
+        </div>
+        
+        <!-- Horizontal Scrolling Skills Marquee -->
+        <div class="skills-marquee-wrapper">
+            <!-- Row 1: Programming Languages & Web -->
+            <div class="skills-marquee scroll-down" data-row="1">
+                <div class="skills-track">
+                    <div class="skill-item-marquee">
+                        <i class="devicon-python-plain colored"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-c-plain colored"></i>
+                        <span>C</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-java-plain colored"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-html5-plain colored"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="skill-item-marquee">
+                        <i class="devicon-python-plain colored"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-c-plain colored"></i>
+                        <span>C</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-java-plain colored"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-html5-plain colored"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2: Tools & Platforms -->
+            <div class="skills-marquee scroll-down" data-row="2">
+                <div class="skills-track">
+                    <div class="skill-item-marquee">
+                        <i class="devicon-git-plain colored"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-github-original colored"></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-vscode-plain colored"></i>
+                        <span>VS Code</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-jupyter-plain colored"></i>
+                        <span>Jupyter</span>
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="skill-item-marquee">
+                        <i class="devicon-git-plain colored"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-github-original colored"></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-vscode-plain colored"></i>
+                        <span>VS Code</span>
+                    </div>
+                    <div class="skill-item-marquee">
+                        <i class="devicon-jupyter-plain colored"></i>
+                        <span>Jupyter</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 3: Soft Skills -->
+            <div class="skills-marquee scroll-down" data-row="3">
+                <div class="skills-track">
+                    <div class="skill-item-marquee soft-skill">
+                        <i class="fas fa-brain" style="color: #f39c12;"></i>
+                        <span>Problem Solving</span>
+                    </div>
+                    <div class="skill-item-marquee soft-skill">
+                        <i class="fas fa-users" style="color: #3498db;"></i>
+                        <span>Teamwork</span>
+                    </div>
+                    <div class="skill-item-marquee soft-skill">
+                        <i class="fas fa-lightbulb" style="color: #e74c3c;"></i>
+                        <span>Creativity</span>
+                    </div>
+                    <div class="skill-item-marquee soft-skill">
+                        <i class="fas fa-comments" style="color: #2ecc71;"></i>
+                        <span>Communication</span>
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="skill-item-marquee soft-skill">
+                        <i class="fas fa-brain" style="color: #f39c12;"></i>
+                        <span>Problem Solving</span>
+                    </div>
+                    <div class="skill-item-marquee soft-skill">
+                        <i class="fas fa-users" style="color: #3498db;"></i>
+                        <span>Teamwork</span>
+                    </div>
+                    <div class="skill-item-marquee soft-skill">
+                        <i class="fas fa-lightbulb" style="color: #e74c3c;"></i>
+                        <span>Creativity</span>
+                    </div>
+                    <div class="skill-item-marquee soft-skill">
+                        <i class="fas fa-comments" style="color: #2ecc71;"></i>
+                        <span>Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Selected Works</h2>
+            <div class="projects-grid">
+                <!-- Main Project -->
+                <article class="project-item main-project">
+                    <div class="project-image">
+                        <img src="images/luxejewels-project.svg" alt="Jewellery Design AR/VR" class="project-img">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Jewellery Design Using AR & VR</h3>
+                        <p>This project focuses on enhancing the jewellery shopping experience using Augmented Reality
+                            and Virtual Reality. Users can virtually try on jewellery like rings, earrings, and
+                            necklaces in real time, helping them see how the designs look before purchasing. The system
+                            improves user engagement, reduces physical trials, and brings a modern approach to jewellery
+                            customization.</p>
+                        <div class="tags">
+                            <span>AR/VR</span>
+                            <span>Virtual Try-on</span>
+                        </div>
+                        <!-- <a href="#" class="project-link">View Case <i class="fas fa-arrow-right"></i></a> -->
+                    </div>
+                </article>
+
+                <!-- Mini Project 1 -->
+                <article class="project-item">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2000&auto=format&fit=crop"
+                            alt="Marks Predictor" class="project-img">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Student Marks Predictor</h3>
+                        <p>A machine learning model using Linear Regression to predict exam scores based on study hours
+                            and attendance.</p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>ML</span>
+                        </div>
+                        <!-- <a href="#" class="project-link">View Case <i class="fas fa-arrow-right"></i></a> -->
+                    </div>
+                </article>
+
+                <!-- Mini Project 2 -->
+                <article class="project-item">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?q=80&w=2000&auto=format&fit=crop"
+                            alt="Expense Tracker" class="project-img">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Expense Tracker</h3>
+                        <p>A simple Java desktop app to manage expenses, view summary charts, and generate monthly
+                            reports.</p>
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                        </div>
+                        <!-- <a href="#" class="project-link">View Case <i class="fas fa-arrow-right"></i></a> -->
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Let’s Work Together</h2>
+                <p>I’m open to internships, collaborations, and new learning opportunities.</p>
+                <a href="mailto:kprajna450@gmail.com" class="email-link">kprajna450@gmail.com</a>
+
+                <div class="footer-socials">
+                    <a href="https://github.com/kprajna450-crypto" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/prajna-k-6547a3392/" target="_blank">LinkedIn</a>
+                    <a href="https://www.instagram.com/pajju___gowda" target="_blank">Instagram</a>
+                </div>
+                <div class="copyright">
+                    &copy; 2024 Prajna K. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
